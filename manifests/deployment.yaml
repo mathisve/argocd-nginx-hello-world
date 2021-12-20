@@ -16,5 +16,5 @@ spec:
         app: nginx-test
     spec:
       containers:
-      - image: nginx:latest
+      - image: nginx:1.21.4
         name: nginx
