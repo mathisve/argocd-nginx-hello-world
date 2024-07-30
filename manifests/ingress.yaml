@@ -4,6 +4,7 @@ metadata:
   name: nginx-test
   namespace: nginx-test
 spec:
+  ingressClassName: nginx
   rules:
     - host: nginx.test
       http:
